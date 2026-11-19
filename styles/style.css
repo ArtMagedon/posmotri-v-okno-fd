@@ -63,16 +63,6 @@ ol {
   gap: 30px;
 }
 
-.overflow {
-  width: 1200px;
-  height: 800px;
-  opacity: 0.25;
-  z-index: 2;
-  position: absolute;
-  align-self: center;
-  justify-self: center;
-}
-
 .result__video-container {
   height: 386px;
   width: 711px;
@@ -111,7 +101,7 @@ ol {
 .search-form__fieldset {
   border: none;
 }
-.search-form__label:has(:focus-visible){
+.search-form__label:has(:focus-visible) {
   outline: 2px solid white;
   outline-offset: 1px;
 }
@@ -206,7 +196,7 @@ ol {
 
 .content__list {
   display: grid;
-  gap: 30px; 
+  gap: 30px;
 }
 
 .content__list-item {
@@ -289,7 +279,6 @@ ol {
   object-position: right;
   object-fit: cover;
 }
-
 
 .visually-hidden {
   position: absolute;
